@@ -9,6 +9,7 @@ spark_airflow_env/
 .env/
 
 # Airflow specific
+airflow/
 airflow/logs/
 airflow/tmp/
 airflow/airflow.db
