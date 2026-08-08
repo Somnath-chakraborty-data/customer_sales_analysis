@@ -1,0 +1,30 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+spark_airflow_env/
+.env/
+
+# Airflow specific
+airflow/logs/
+airflow/tmp/
+airflow/airflow.db
+airflow/airflow.sqlite
+
+# Spark temporary files
+spark-warehouse/
+derby.log
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/project settings
+.vscode/
+.idea/
